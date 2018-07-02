@@ -9,7 +9,7 @@ To use simply insert a link to the css in the header ex: <link href='expanding_g
 Add the js to the body ex: <script src="expanding_gallery/exp_gallery.js"></script>
 
 Finally it's time to make your gallery. In the html make a div where you want your gallery along with the desired width. In that div insert this shell:
-
+<h1>
 <div class="container">
     <img class="the-topper" style="display:none;">
     <div class="row" id="row1">
@@ -37,6 +37,7 @@ Finally it's time to make your gallery. In the html make a div where you want yo
         <img src="" class="6">
     </div>
 </div>
+<h2>
 
 Once you've done that, you have a fully functional expanding galellery.
 
