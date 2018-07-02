@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+.container,.row>img{width:100%}body{margin:0}html::-webkit-scrollbar{display:none}.row>img{margin:0 auto auto;cursor:pointer;transition:.1s;-webkit-transition:.1s}.row{width:calc(100%/6 - 4px);float:left;margin-left:2px;margin-right:2px}.the-topper{z-index:5;position:absolute;opacity:0;cursor:pointer}#uni_pic{z-index:10;position:absolute;pointer-events:none;-webkit-transition:width .2s;transition:width .2s}@media only screen and (max-width:1100px){.row{width:calc(100%/3 - 4px)}}@media only screen and (max-width:700px){.row{width:calc(100%/2 - 4px)}}
+</style>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+<img id="uni_pic" style="display:none;">
+<div class="container">
+    <img class="the-topper" style="display:none;">
+    <div class="row" id="row1">
+        <img src="https://images.pexels.com/photos/270837/pexels-photo-270837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="1">
+        <img src="https://images.pexels.com/photos/35664/ballet-dancer-male-performance.jpg?auto=compress&cs=tinysrgb&h=650&w=940" class="1">
+        <img src="https://images.pexels.com/photos/341858/pexels-photo-341858.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="1">
+        <img src="https://images.pexels.com/photos/270789/pexels-photo-270789.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="1">
+        <img src="https://images.pexels.com/photos/910405/pexels-photo-910405.png?auto=compress&cs=tinysrgb&h=650&w=940" class="1">
+    </div>
+    <div class="row" id="row2">
+        <img src="https://images.pexels.com/photos/161000/ballerina-in-the-city-girl-beautiful-cute-161000.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="2">
+        <img src="https://images.pexels.com/photos/219615/pexels-photo-219615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="2">
+        <img src="https://images.pexels.com/photos/461611/pexels-photo-461611.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="2">
+        <img src="https://images.pexels.com/photos/209948/pexels-photo-209948.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="2">
+        <img src="https://images.pexels.com/photos/415212/pexels-photo-415212.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="2">
+    </div>
+    <div class="row" id="row3">
+        <img src="https://images.pexels.com/photos/40186/dance-ballet-powder-girl-40186.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="3">
+        <img src="https://images.pexels.com/photos/156669/pexels-photo-156669.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="3">
+        <img src="https://images.pexels.com/photos/807545/pexels-photo-807545.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="3">
+        <img src="https://images.pexels.com/photos/59949/medieval-dance-history-dancer-59949.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="3">
+        <img src="https://images.pexels.com/photos/206268/pexels-photo-206268.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="3">
+    </div>
+    <div class="row" id="row4">
+        <img src="https://images.pexels.com/photos/270912/pexels-photo-270912.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="4">
+        <img src="https://images.pexels.com/photos/39572/ballet-dance-dancer-ballerina-39572.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="4">
+        <img src="https://images.pexels.com/photos/270767/pexels-photo-270767.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="4">
+        <img src="https://images.pexels.com/photos/67238/tango-dancing-couple-dance-style-67238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="4">
+    </div>
+    <div class="row" id="row5">
+        <img src="https://images.pexels.com/photos/236947/pexels-photo-236947.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="5">
+        <img src="https://images.pexels.com/photos/167484/pexels-photo-167484.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="5">
+        <img src="https://images.pexels.com/photos/760115/pexels-photo-760115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="5">
+        <img src="https://images.pexels.com/photos/1164975/pexels-photo-1164975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="5">
+        <img src="https://images.pexels.com/photos/235468/pexels-photo-235468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="5">
+    </div>
+    <div class="row" id="row6">
+        <img src="https://images.pexels.com/photos/206274/pexels-photo-206274.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="6">
+        <img src="https://images.pexels.com/photos/591679/young-girl-ballerina-dance-591679.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="6">
+        <img src="https://images.pexels.com/photos/163324/girl-indian-dance-red-163324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="6">
+        <img src="https://images.pexels.com/photos/235441/pexels-photo-235441.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="6">
+        <img src="https://images.pexels.com/photos/270968/pexels-photo-270968.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="6">
+    </div>
+</div>
+<script>var galsize,preSize,postSize,galsettings=6,larged=!1;function setGallery(i){$(".row").children().css("margin-top","0");var e=!1,t=i.target.parentNode.parentNode.children[0];t.src=i.target.src,document.getElementById("uni_pic").src=i.target.src;var s=$(i.target).position().left,n=i.target.parentNode.id.slice(-1);"2"==n&&2==galsettings?e=!0:"3"==n&&3==galsettings?e=!0:"6"==n&&6==galsettings&&(e=!0),e?($(t).css("right",2),$("#uni_pic").css("right",2),$(t).css("left",""),$("#uni_pic").css("left","")):($(t).css("left",s),$("#uni_pic").css("left",s),$(t).css("right",""),$("#uni_pic").css("right","")),$("#uni_pic").css({top:$(i.target).position().top,display:"",width:preSize}),setTimeout(function(){$("#uni_pic").css({width:postSize})},20),$(t).css({top:$(i.target).position().top,display:"",width:galsize}),$(i.target).next().css("margin-top",t.clientHeight-i.target.clientHeight),(0==e?$(i.target.parentNode.parentNode.children[parseInt(n)+1]):$(i.target.parentNode.parentNode.children[parseInt(n)-1])).children().each(function(){if($(this).position().top==$(i.target).position().top)return $(this).css("margin-top",t.clientHeight+4),!1;var e=$(this).position().top+this.clientHeight;return e>$(t).position().top&&e<$(t).position().top+t.clientHeight?($(this.parentNode.children[0]).css("margin-top",-1*(e-$(t).position().top+4)),$(this).next().css("margin-top",t.clientHeight+4),!1):void 0})}function galresize(){$(".row").children().css("margin-top","");var i=galsettings;$(document).width()<700?(galsize="calc(100% - 4px)",galsettings=2,preSize="calc(100%/2 - 4px)",postSize="calc(100% - 4px)"):$(document).width()<1100?(galsize="calc(100%/1.5 - 4px)",galsettings=3,preSize="calc(100%/3 - 4px)",postSize="calc(100%/1.5 - 4px)"):(galsize="calc(100%/3 - 4px)",galsettings=6,preSize="calc(100%/6 - 4px)",postSize="calc(100%/3 - 4px)"),$("#uni_pic").css("width",preSize),i!=galsettings&&(6==galsettings?$(".container").each(function(i,e){$(e).children().children().each(function(){"1"==this.className?$(this).appendTo(e.children[1]):"2"==this.className?$(this).appendTo(e.children[2]):"3"==this.className?$(this).appendTo(e.children[3]):"4"==this.className?$(this).appendTo(e.children[4]):"5"==this.className?$(this).appendTo(e.children[5]):"6"==this.className&&$(this).appendTo(e.children[6])})}):3==galsettings?$(".container").each(function(i,e){$(e).children().children().each(function(){"1"==this.className?$(this).appendTo(e.children[1]):"2"==this.className?$(this).appendTo(e.children[2]):"3"==this.className?$(this).appendTo(e.children[3]):"4"==this.className?$(this).appendTo(e.children[1]):"5"==this.className?$(this).appendTo(e.children[2]):"6"==this.className&&$(this).appendTo(e.children[3])})}):2==galsettings&&$(".container").each(function(i,e){$(".container").each(function(i,e){$(e).children().children().each(function(){"1"==this.className?$(this).appendTo(e.children[1]):"2"==this.className?$(this).appendTo(e.children[2]):"3"==this.className?$(this).appendTo(e.children[1]):"4"==this.className?$(this).appendTo(e.children[2]):"5"==this.className?$(this).appendTo(e.children[1]):"6"==this.className&&$(this).appendTo(e.children[2])})})}))}$(".row").children().click(function(i){1!=larged?(larged=!0,$(".row").children().css("opacity","0.8"),setGallery(i)):(setTimeout(function(){$(".row").children().css("margin-top",""),$("#uni_pic").css("display","none"),larged=!1},200),$("#uni_pic").css("width",preSize),setTimeout(function(){setGallery(i),larged=!0},330))}),$(".the-topper").click(function(i){i.target.style.display="none",setTimeout(function(){$(".row").children().css("margin-top",""),$("#uni_pic").css("display","none"),larged=!1},200),$("#uni_pic").css("width",preSize),$(".row").children().css("opacity","1")}),$(window).resize(function(){$(".the-topper").css("display","none"),$("#uni_pic").css("display","none"),galresize(),larged=!1}),galresize();</script>
+</body>
+</html>
