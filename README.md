@@ -10,11 +10,11 @@ Add the js to the body ex: <script src="expanding_gallery/exp_gallery.js"></scri
 
 Now it's time to make your gallery. In the html make a div where you want your gallery along with the desired width. In that div insert this shell:
 
-<div class="container">
-    <img class="the-topper" style="display:none;">
-    <div class="row" id="row1">
-        <!-- Duplicate line bellow for the quantity of images you want per row, fill out the source -->
-        <img src="" class="1">
+:<div class="container">
+:    <img class="the-topper" style="display:none;">
+:    <div class="row" id="row1">
+:        <!-- Duplicate line bellow for the quantity of images you want per row, fill out the source -->
+:        <img src="" class="1">
     </div>
     <div class="row" id="row2">
         <!-- Duplicate line bellow for the quantity of images you want per row, fill out the source -->
