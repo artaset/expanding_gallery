@@ -8,8 +8,8 @@ Feel free to use this reposotory for free!
 To use simply insert a link to the css in the header ex: <link href='expanding_gallery/exp_gallery.css' rel='stylesheet'>
 Add the js to the body ex: <script src="expanding_gallery/exp_gallery.js"></script>
 
-Finally it's time to make your gallery. In the html make a div where you want your gallery along with the desired width. In that div insert this shell:
-<h1>
+Now it's time to make your gallery. In the html make a div where you want your gallery along with the desired width. In that div insert this shell:
+
 <div class="container">
     <img class="the-topper" style="display:none;">
     <div class="row" id="row1">
@@ -37,7 +37,10 @@ Finally it's time to make your gallery. In the html make a div where you want yo
         <img src="" class="6">
     </div>
 </div>
-<h2>
+
+Finally, you need to insert this anywhere in your body>:
+
+<img id="uni_pic" style="display:none;">
 
 Once you've done that, you have a fully functional expanding galellery.
 
