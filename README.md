@@ -3,6 +3,8 @@ This is a simple js repository that allows you to make stunning and unique galle
 
 Feel free to use this reposotory for free!
 
+Follow the instructions in the file (instruction.txt) to use it in your html webpage.
+
 # Instructions
 
 To use simply insert a link to the css in the header ex: <link href='expanding_gallery/exp_gallery.css' rel='stylesheet'>
