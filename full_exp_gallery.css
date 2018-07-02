@@ -1,0 +1,38 @@
+.row>img {
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 0;
+    transition: 100ms;
+    -webkit-transition: 100ms;
+}
+.container {
+    width: 100%;
+}
+.row {
+    width: calc(100%/6 - 4px);
+    float: left; margin-left: 2px; margin-right: 2px;
+}
+.the-topper {
+    z-index: 5;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+#uni_pic {
+    z-index: 10;
+    position: absolute;
+    pointer-events: none;
+    -webkit-transition: width 200ms;
+    transition: width 200ms;
+}
+@media only screen and (max-width: 1100px) {
+    .row {
+        width: calc(100%/3 - 4px);
+    }
+}
+@media only screen and (max-width: 700px) {
+    .row {
+        width: calc(100%/2 - 4px);
+    }
+}
